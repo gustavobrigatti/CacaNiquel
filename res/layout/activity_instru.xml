@@ -1,0 +1,190 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundojogo"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/tvInstrucoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="INSTRUÇÕES"
+        android:textColor="#000"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/tvInicia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView1"
+        android:text="- Selecione para iniciar\n e parar a roleta."
+        android:textColor="#000"
+        android:textSize="24dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/quadrado" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButton1"
+        android:layout_alignTop="@+id/imageButton1"
+        android:layout_marginLeft="9dp"
+        android:background="@drawable/moedamario" />
+
+    <TextView
+        android:id="@+id/tvMoeda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tvInicia"
+        android:layout_alignTop="@+id/imageButton1"
+        android:text="- Publicar sua pontuação\n quando estiver zerado."
+        android:textColor="#000"
+        android:textSize="22dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imageButton1"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/musica" />
+
+    <TextView
+        android:id="@+id/tvMusica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_alignRight="@+id/tvMoeda"
+        android:layout_marginBottom="15dp"
+        android:text="- Pausar/Iniciar música."
+        android:textColor="#000"
+        android:textSize="24dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMusica"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/vidamario" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_toRightOf="@+id/imageView3"
+        android:background="@drawable/flormario" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_marginLeft="23dp"
+        android:layout_toRightOf="@+id/imageView4"
+        android:background="@drawable/flormario" />
+
+    <TextView
+        android:id="@+id/tvDuas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:text="DOIS IGUAIS = 20 MOEDAS"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_below="@+id/tvDuas"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/goombamario" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView6"
+        android:layout_alignTop="@+id/imageView5"
+        android:background="@drawable/goombamario" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView7"
+        android:layout_alignTop="@+id/imageView5"
+        android:background="@drawable/goombamario" />
+
+    <TextView
+        android:id="@+id/tvTres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvDuas"
+        android:layout_below="@+id/imageView5"
+        android:layout_marginTop="8dp"
+        android:text="TRÊS IGUAIS = 40 MOEDAS"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imageView4"
+        android:layout_below="@+id/tvTres"
+        android:background="@drawable/estrelamario" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvInstrucoes"
+        android:background="@drawable/exclamacao" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imageView10"
+        android:layout_alignTop="@+id/imageView9"
+        android:background="@drawable/estrelamario" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imageView8"
+        android:layout_alignTop="@+id/imageView9"
+        android:background="@drawable/estrelamario" />
+
+    <TextView
+        android:id="@+id/tvEstrela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/tvInstrucoes"
+        android:layout_marginBottom="7dp"
+        android:text="TRÊS ESTRELAS = 100 MOEDAS"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+</RelativeLayout>

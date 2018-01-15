@@ -1,0 +1,160 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundopc" >
+
+    <ImageView
+        android:id="@+id/ivRetpc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ivRetpc2"
+        android:layout_marginRight="11dp"
+        android:layout_toLeftOf="@+id/ivRetpc2"
+        android:background="@drawable/primeiropc" />
+
+    <ImageView
+        android:id="@+id/ivRetpc3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="189dp"
+        android:layout_toRightOf="@+id/ivRetpc2"
+        android:background="@drawable/quartopc" />
+
+    <ImageView
+        android:id="@+id/ivRetpc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ivRetpc3"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/terceiropc" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/ivRetpc2"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_marginRight="52dp"
+        android:background="@drawable/quadradopc" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ivRetpc1"
+        android:layout_alignTop="@+id/imageView1"
+        android:background="@drawable/quadradopc" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/ivRetpc3"
+        android:layout_below="@+id/ivRetpc3"
+        android:layout_marginTop="61dp"
+        android:background="@drawable/quadradopc" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_toLeftOf="@+id/imageView2"
+        android:background="@drawable/quadradopc" />
+
+    <ImageButton
+        android:id="@+id/ibIniciarcp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/pc" />
+
+    <ImageButton
+        android:id="@+id/ibCereja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_alignTop="@+id/ibIniciarcp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/cerejablack" />
+
+    <ImageButton
+        android:id="@+id/ibInstrupm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignTop="@+id/ibCereja"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/fantinstru" />
+
+    <ImageButton
+        android:id="@+id/ibMusicapm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_alignTop="@+id/ibIniciarcp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/somon" />
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/ibMusicapm"
+        android:layout_marginTop="47dp"
+        android:text="200"
+        android:textColor="#FFF"
+        android:textSize="70dp" />
+
+    <TextView
+        android:id="@+id/tvTextoScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvScore"
+        android:layout_alignBottom="@+id/tvScore"
+        android:layout_alignLeft="@+id/ivRetpc1"
+        android:text="Score: "
+        android:textColor="#FFF"
+        android:textSize="55dp" />
+
+    <TextView
+        android:id="@+id/tvPontosGanhos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvScore"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="VOCÊ GANHOU 100 MOEDAS"
+        android:textColor="#FFF"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/tvRodadasPM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="RODADAS: 00"
+        android:textColor="#FFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvPrecopm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:text="Preço por jogada: 20 Pontos"
+        android:textColor="#FFF"
+        android:textSize="23dp" />
+
+</RelativeLayout>

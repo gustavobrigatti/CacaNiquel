@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/fundojogo">
+
+    <ImageButton
+        android:id="@+id/btnInstru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/instrubtn" />
+
+    <ImageView
+        android:id="@+id/imRet1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnInstru"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_marginBottom="55dp"
+        android:background="@drawable/primeiro" />
+
+    <ImageView
+        android:id="@+id/imRet2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imRet1"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/segundo" />
+
+    <ImageView
+        android:id="@+id/imRet3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_alignTop="@+id/imRet2"
+        android:background="@drawable/terceiro" />
+
+    <ImageView
+        android:id="@+id/ivScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/cano" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="53dp"
+        android:background="@drawable/cuboflutu" />
+
+    <ImageButton
+        android:id="@+id/ibInicia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginRight="63dp"
+        android:background="@drawable/exclamacao" />
+
+    <ImageButton
+        android:id="@+id/ibFreeMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/moedamarioescuro" />
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivScore"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:text="200"
+        android:textColor="#FFF"
+        android:textSize="35dp" />
+
+    <ImageView
+        android:id="@+id/ivMoedaMini"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvScore"
+        android:layout_alignRight="@+id/btnInstru"
+        android:layout_marginRight="7dp"
+        android:background="@drawable/moedamini" />
+
+    <ImageButton
+        android:id="@+id/ibMusica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ibInicia"
+        android:layout_alignRight="@+id/imageView1"
+        android:background="@drawable/musica" />
+
+    <TextView
+        android:id="@+id/tvMoedasGanhas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imRet1"
+        android:layout_centerHorizontal="true"
+        android:text="VOCÊ GANHOU 200 MOEDAS"
+        android:textColor="#FFF"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/tvRodadas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imRet3"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="7dp"
+        android:text="RODADAS: 00"
+        android:textColor="#FFF"
+        android:textSize="19dp" />
+
+    <TextView
+        android:id="@+id/tvPreco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:text="Preço por jogada: 20 Moedas"
+        android:textColor="#FFF"
+        android:textSize="20dp" />
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundoiniciotudo"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/tvNiquel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvCaca"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="NÍQUEL"
+        android:textColor="#FFF"
+        android:textSize="64dp" />
+
+    <TextView
+        android:id="@+id/tvCaca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:text="CAÇA"
+        android:textColor="#FFF"
+        android:textSize="64dp" />
+
+    <Button
+        android:id="@+id/btnNiveis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="41dp"
+        android:layout_marginLeft="16dp"
+        android:text="NÍVEIS"
+        android:textSize="28dp" />
+
+    <Button
+        android:id="@+id/btnInstru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnNiveis"
+        android:layout_alignBottom="@+id/btnNiveis"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="11dp"
+        android:text="INSTRUÇÕES"
+        android:textSize="28dp" />
+
+    <ImageButton
+        android:id="@+id/ibRanking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ranking" />
+
+</RelativeLayout>

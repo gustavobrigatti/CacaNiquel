@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Caça Níquel</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_instru">InstruActivity</string>
+    <string name="title_activity_jogo">JogoActivity</string>
+    <string name="title_activity_inicio_tudo">InicioTudoActivity</string>
+    <string name="title_activity_niveis">NiveisActivity</string>
+    <string name="title_activity_pac_man">PacManActivity</string>
+    <string name="title_activity_instru_pm">InstruPmActivity</string>
+    <string name="title_activity_instru_inicio">InstruInicioActivity</string>
+    <string name="title_activity_ranking">RankingActivity</string>
+
+</resources>

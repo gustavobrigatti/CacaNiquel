@@ -1,0 +1,46 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundoiniciotudo" >
+
+    <TextView
+        android:id="@+id/tvBordao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="A SORTE ESTÁ A SEU FAVOR?"
+        android:textColor="#FFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvEscolha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvBordao"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:text="ESCOLHA:"
+        android:textColor="#FFF"
+        android:textSize="38dp" />
+
+    <ImageButton
+        android:id="@+id/ibMario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvBordao"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="111dp"
+        android:background="@drawable/smnmini" />
+
+    <ImageButton
+        android:id="@+id/ibPacMan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tvBordao"
+        android:layout_alignTop="@+id/ibMario"
+        android:background="@drawable/pcmini2" />
+
+</RelativeLayout>
