@@ -1,4 +1,5 @@
 # CacaNiquel
-Jogo para Android de Caça Níquel
 
-Projeto simples de um caça níquel com temas do Mario e Pac Man
+Slot Machine game for Android
+
+Slot Machine simple project with themes Mario and Pac Man
